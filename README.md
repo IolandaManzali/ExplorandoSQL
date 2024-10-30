@@ -82,9 +82,9 @@ Dentre os arquivos e pastas presentes na raiz do projeto, definem-se:
 
  * Utilizar os dados das tabelas para gerar analise de dados sobre producao, produtividade e area plantada conforme os exemplos a seguir:
 
-  * Analises por cultura e região 	
+ * Analises por cultura e região 	
 	
-* ranking de produção por região (em ordem descrescente)
+ * ranking de produção por região (em ordem descrescente)
 	
 		SELECT t2.nm_regiao, t1.nm_cultura, SUM(t3.vl_producao) AS total_producao
  		FROM t_cultura t1
@@ -93,7 +93,7 @@ Dentre os arquivos e pastas presentes na raiz do projeto, definem-se:
 		GROUP BY t2.nm_regiao, t1.nm_cultura
 		ORDER BY t2.nm_regiao, total_producao DESC;
 
-* ranking de produtividade por tipo de grão por ano, (em ordem descrescente)
+ * ranking de produtividade por tipo de grão por ano, (em ordem descrescente)
 
    		SELECT t2.nm_regiao, AVG(t3.vl_produtividade) AS produtividade_media
 		FROM t_cultura t1
@@ -104,7 +104,7 @@ Dentre os arquivos e pastas presentes na raiz do projeto, definem-se:
 		ORDER BY produtividade_media DESC;
     	
 	
-  * comparação das produtividades médias por tipo de grão por região
+ * comparação das produtividades médias por tipo de grão por região
 
 	  	SELECT t2.nm_regiao,
        		AVG(CASE WHEN t1.nm_cultura = 'ARABICA' THEN t3.vl_produtividade END) AS produtividade_arabica,
@@ -114,7 +114,7 @@ Dentre os arquivos e pastas presentes na raiz do projeto, definem-se:
 		JOIN t_regiao t2 ON t2.cd_regiao = t3.cd_regiao
 		GROUP BY t2.nm_regiao;
 
-  * analise da producao do café por tipo de grão entre 2014 e 2024
+ * analise da producao do café por tipo de grão entre 2014 e 2024
 
 		SELECT t1.id_ano_safra, SUM(t3.vl_producao) AS total_producao_arabica
 		FROM t_cultura t1
@@ -133,7 +133,7 @@ Dentre os arquivos e pastas presentes na raiz do projeto, definem-se:
     * 
 * 0.3.0 - XX/XX/2024
     * 
-* 0.2.0 - 30/10/2024
+* 0.2.0 - 30/10/2024   ![image](https://img.shields.io/badge/{Version 1.2}-{RED}?style=for-the-badge&logo={Version 1.2}&logoColor=white)
     * 
 * 0.1.0 - 04/10/2024
     *
