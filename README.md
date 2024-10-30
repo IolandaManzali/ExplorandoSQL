@@ -27,21 +27,19 @@
 
 ## 📜 Descrição
 
-Para essa atividade foi criado um Modelo Entidade Relacionamento baseado na base de dados da CONASB relacionados à serie historica de safras cafeeiras entre 2014 a 2024. 
+Para essa atividade foi criado um Modelo Entidade Relacionamento baseado em dados disponibilizados pelo site da CONAB relacionados à série histórica de safras cafeeiras entre 2014 a 2024. 
 
-O cafe, alem de fazer parte da história e da cultura brasileira, ocupa lugar de destaque nos mercados nacional e internacional.
+O café, além de fazer parte da história e da cultura brasileira, ocupa lugar de destaque nos mercados nacional e internacional.
 
-Selecionados os graos do tipo Arabica e Conillon pelas suas caracteristicas peculiares de plantio e caracteristicas de consumo. 
+FOram selecionados os grãos do tipo Arabica e Conillon pelas suas caracteristicas peculiares de plantio e de consumo. 
 
-Foram colhidas informacoes sobre areas de plantio, produtividade e produçao dos grãos citados acima. 
-
-Para  ano de 2024 os valores sao estimativos, levando-se em conta o mes de setembro de 2024.
+Para o ano corrente os valores são estimativos, levando-se em conta o mês de setembro de 2024.
 
 Etapas do projeto:
 
- 	* Analise dos dados e download das planilhas so site da CONAB.
+ 	* Análise dos dados e download das planilhas do site da CONAB.
 	 
-	* Criaçao do DER (Diagrama Entidade Relacionamento) utilizando o SQL Data Modeler 
+	* Criação do DER (Diagrama Entidade Relacionamento) utilizando o SQL Data Modeler 
 	
 	* Criação do MER e aplicadas as regras de design e normatização com o SQL Data Modeler 
 
@@ -74,15 +72,15 @@ Dentre os arquivos e pastas presentes na raiz do projeto, definem-se:
 
 ## 🔧 Como executar o código
 
- * Acessar o SQL Developer, connectar-se a um banco de dados e abrir a Query
+ * Acessar o SQL Developer, conectar-se a um banco de dados e abrir a Query
   	
  * Acessar o conteudo das tabelas através do comando:
 
     	SELECT * FROM nome_da_tabela
 
- * Utilizar os dados das tabelas para gerar analise de dados sobre producao, produtividade e area plantada conforme os exemplos a seguir:
+ * Utilizar os dados das tabelas para gerar analise de dados sobre produção, produtividade e area plantada conforme os exemplos a seguir:
 
- * Analises por cultura e região 	
+ * Análises por cultura e região 	
 	
  * ranking de produção por região (em ordem descrescente)
 	
