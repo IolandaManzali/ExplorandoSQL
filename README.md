@@ -27,7 +27,33 @@
 
 ## 📜 Descrição
 
+Para essa atividade foi criado um Modelo Entidade Relacionamento baseado na base de dados da CONASB relacionados à serie historica de safras cafeeiras entre 2014 a 2024. 
 
+O cafe, alem de fazer parte da história e da cultura brasileira, ocupa lugar de destaque nos mercados nacional e internacional.
+
+Selecionados os graos do tipo Arabica e Conillon pelas suas caracteristicas peculiares de plantio e caracteristicas de consumo. 
+
+Foram colhidas informacoes sobre areas de plantio, produtividade e produçao dos grãos citados acima. 
+
+Para  ano de 2024 os valores sao estimativos, levando-se em conta o mes de setembro de 2024.
+
+Etapas do projeto:
+
+ 	* Analise dos dados e download das planilhas so site da CONAB.
+	 
+	* Criaçao do DER (Diagrama Entidade Relacionamento) utilizando o SQL Data Modeler 
+	
+	* Criacao do MER e aplicadas as regras de design e normatização com o SQL Data Modeler 
+
+	* Exportacao do código gerado em .ddl para utilização no SQL Developer 
+
+	* Criação do Banco de Dados pelo SQL DEveloper Oracle
+
+	* Criacao de um Dicionario de Dados em Excel, descrevendo as Entidades/Tabelas, seus tipos de dados e chaves.
+
+	* Utilizacao do código criado para realização de consultas relevantes sobre os dados coletados.     
+  
+   
 ## 📁 Estrutura de pastas
 
 Dentre os arquivos e pastas presentes na raiz do projeto, definem-se:
@@ -49,6 +75,8 @@ Dentre os arquivos e pastas presentes na raiz do projeto, definem-se:
 ## 🔧 Como executar o código
 
 
+
+
 ## 🗃 Histórico de lançamentos
 
 * 0.5.0 - XX/XX/2024
@@ -57,7 +85,7 @@ Dentre os arquivos e pastas presentes na raiz do projeto, definem-se:
     * 
 * 0.3.0 - XX/XX/2024
     * 
-* 0.2.0 - XX/XX/2024
+* 0.2.0 - 30/10/2024
     * 
 * 0.1.0 - 04/10/2024
     *
