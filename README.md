@@ -133,8 +133,8 @@ Dentre os arquivos e pastas presentes na raiz do projeto, definem-se:
     * 
 * 0.3.0 - XX/XX/2024
     * 
-* 0.2.0 - 30/10/2024   ![image](https://img.shields.io/badge/{Version 1.2}-{RED}?style=for-the-badge&logo={Version 1.2}&logoColor=white)
-    * 
+* 0.2.0 - 30/10/2024   
+    *   
 * 0.1.0 - 04/10/2024
     *
 
