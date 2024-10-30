@@ -62,6 +62,10 @@ Dentre os arquivos e pastas presentes na raiz do projeto, definem-se:
 * 0.1.0 - 04/10/2024
     *
 
+## 👨‍💻 Desenvolvedores
+
+![grupo](https://github.com/IolandaManzali/decolando_com-_ciencia_de_dados_grupo21/blob/main/assets/grupo_fiap.jpg)
+
 
 ## 📋 Licença
 
