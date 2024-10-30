@@ -6,10 +6,11 @@
 
 <br>
 
-# Nome do projeto - Um Mapa do Tesouro
+# Nome do projeto - Explorando SQL e Tipos de Dados Oracle
+![gif](https://github.com/IolandaManzali/ExplorandoSQL/blob/main/assets/gitgif.gif)
 
 
-## Nome do grupo - Grupo 30
+## Nome do grupo - Grupo 06
 
 ## 👨‍🎓 Integrantes: 
 - <a href="https://www.linkedin.com/in/hilmar-marques-358672161">Hilmar Gomes Marques da Silva</a>
