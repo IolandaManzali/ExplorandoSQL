@@ -31,7 +31,7 @@ Para essa atividade foi criado um Modelo Entidade Relacionamento baseado em dado
 
 O café, além de fazer parte da história e da cultura brasileira, ocupa lugar de destaque nos mercados nacional e internacional.
 
-FOram selecionados os grãos do tipo Arabica e Conillon pelas suas caracteristicas peculiares de plantio e de consumo. 
+Foram selecionados os grãos do tipo Arábica e Conillon pelas suas caracteristicas peculiares de plantio e de consumo. 
 
 Para o ano corrente os valores são estimativos, levando-se em conta o mês de setembro de 2024.
 
