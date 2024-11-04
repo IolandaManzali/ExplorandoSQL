@@ -58,18 +58,19 @@ Dentre os arquivos e pastas presentes na raiz do projeto, definem-se:
 
 - <b>.github</b>: Nesta pasta ficarão os arquivos de configuração específicos do GitHub que ajudam a gerenciar e automatizar processos no repositório.
 
-- <b>assets</b>: aqui estão os arquivos relacionados a elementos não-estruturados deste repositório, como imagens.
+- <b>assets</b>: imagens em png do MER e DER
 
-- <b>config</b>: Posicione aqui arquivos de configuração que são usados para definir parâmetros e ajustes do projeto.
+- <b>config</b>: documentos FIAP Fase3
 
-- <b>document</b>: aqui estão todos os documentos do projeto que as atividades poderão pedir. Na subpasta "other", adicione documentos complementares e menos importantes.
+- <b>document</b>: update tabelas CONAB.
 
-- <b>scripts</b>: Posicione aqui scripts auxiliares para tarefas específicas do seu projeto. Exemplo: deploy, migrações de banco de dados, backups.
+- <b>scripts</b>: update arquivo com o backup do codigo em SQL.
 
-- <b>src</b>: Todo o código fonte criado para o desenvolvimento do projeto ao longo das 7 fases.
+- <b>src</b>: update do código.
 
-- <b>README.md</b>: arquivo que serve como guia e explicação geral sobre o projeto (o mesmo que você está lendo agora).
+- <b>README.md</b>:
 
+  
 ## 🔧 Como executar o código
 
  * Acessar o SQL Developer, conectar-se a um banco de dados e abrir a Query
