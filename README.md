@@ -56,8 +56,7 @@ Etapas do projeto:
 
 Dentre os arquivos e pastas presentes na raiz do projeto, definem-se:
 
-- <b>.github</b>: Nesta pasta ficarão os arquivos de configuração específicos do GitHub que ajudam a gerenciar e automatizar processos no repositório.
-
+- <b>.github</b>: init
 - <b>assets</b>: imagens em png do MER e DER
 
 - <b>config</b>: documentos FIAP Fase3
@@ -68,7 +67,7 @@ Dentre os arquivos e pastas presentes na raiz do projeto, definem-se:
 
 - <b>src</b>: update do código.
 
-- <b>README.md</b>:
+- <b>README.md</b>: init
 
   
 ## 🔧 Como executar o código
